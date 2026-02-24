@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zohreh | Web Developer Journey</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{margin:0;padding:0;box-sizing:border-box;}
+
+body{
+    font-family: Vazirmatn, sans-serif;
+    background: linear-gradient(135deg,#667eea,#764ba2);
+    color:#333;
+}
+
+/* هدر */
+.hero{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+    padding:20px;
+}
+
+.profile{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    object-fit:cover;
+    border:5px solid white;
+    box-shadow:0 10px 30px rgba(0,0,0,0.3);
+    margin-bottom:20px;
+    transition:0.4s;
+}
+
+.profile:hover{
+    transform:scale(1.1) rotate(3deg);
+}
+
+.hero h1{
+    font-size:42px;
+    margin-bottom:10px;
+}
+
+.hero p{
+    font-size:18px;
+    opacity:0.9;
+    max-width:600px;
+}
+
+.btn{
+    margin-top:25px;
+    padding:12px 30px;
+    background:white;
+    color:#764ba2;
+    border-radius:30px;
+    text-decoration:none;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.btn:hover{
+    transform:scale(1.1);
+}
+
+/* بخش‌ها */
+.section{
+    background:white;
+    padding:80px 20px;
+    text-align:center;
+}
+
+.section h2{
+    margin-bottom:25px;
+    font-size:30px;
+    color:#764ba2;
+}
+
+.container{
+    max-width:1000px;
+    margin:auto;
+    line-height:2;
+}
+
+/* مهارت‌ها */
+.skills span{
+    display:inline-block;
+    background:#667eea;
+    color:white;
+    padding:10px 18px;
+    margin:8px;
+    border-radius:20px;
+}
+
+/* کارت پروژه */
+.projects{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+    margin-top:30px;
+}
+
+.card{
+    background:#f4f6fb;
+    width:280px;
+    padding:20px;
+    border-radius:20px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card h3{
+    margin-bottom:10px;
+    color:#667eea;
+}
+
+/* فوتر */
+footer{
+    background:#222;
+    color:white;
+    padding:30px;
+    text-align:center;
+}
+
+</style>
+</head>
+
+<body>
+
+<section class="hero">
+
+<img src="profile.jpg" class="profile">
+
+<h1> سایت شخصی </h1>
+<p>
+دانشجوی علاقه‌مند به طراحی وب و برنامه‌نویسی.  
+در مسیر یادگیری، ساخت پروژه و رشد حرفه‌ای 🚀  
+هدفم تبدیل شدن به یک توسعه‌دهنده حرفه‌ای وب است.
+</p>
+
+<a href="#about" class="btn">مشاهده بیشتر</a>
+
+</section>
+
+
+<section id="about" class="section">
+<div class="container">
+<h2>درباره من</h2>
+<p>
+من به دنیای تکنولوژی و طراحی رابط کاربری علاقه زیادی دارم.
+کار با HTML و CSS را شروع کرده‌ام و در حال یادگیری Git و GitHub 
+تلاش می‌کنم هر روز مهارت‌هایم را تقویت کنم و پروژه‌های خلاقانه بسازم.
+</p>
+<p>
+به نظم، پیشرفت شخصی و یادگیری مداوم اهمیت می‌دهم و دوست دارم
+در آینده در حوزه توسعه فرانت‌اند فعالیت حرفه‌ای داشته باشم.
+</p>
+</div>
+</section>
+
+
+<section class="section">
+<div class="container">
+<h2>مهارت‌های من</h2>
+<div class="skills">
+<span>HTML</span>
+<span>CSS</span>
+<span>Git & GitHub</span>
+<span>Responsive Design</span>
+<span>UI Design</span>
+</div>
+</div>
+</section>
+
+
+<section class="section">
+<div class="container">
+<h2>پروژه‌های من</h2>
+
+<div class="projects">
+
+<div class="card">
+<h3>سایت شخصی</h3>
+<p>طراحی و پیاده‌سازی سایت شخصی با HTML و CSS و انتشار در GitHub Pages.</p>
+</div>
+
+<div class="card">
+<h3>پروژه آزمایشگاه معماری کامپیوتر</h3>
+<p>پیاده‌سازی الگوریتم Booth و طراحی ALU 16 بیتی در محیط شبیه‌سازی.</p>
+</div>
+
+<div class="card">
+<h3>تمرین‌های Git</h3>
+<p>ایجاد مخزن، کار با commit و مدیریت پروژه در گیت‌هاب.</p>
+</div>
+
+</div>
+
+</div>
+</section>
+
+
+<section class="section">
+<div class="container">
+<h2>تماس با من</h2>
+<p>📧 Ghaderizohre40@gmail.com</p>
+<p>📱 Instagram: Zohreh77_z3</p>
+
+</div>
+</section>
+
+<footer>
+</footer>
+
+</body>
+</html>
